@@ -29,6 +29,27 @@ const projectsData = [
     imageUrl: '/images/company-profiletukang.jpg',
     linkUrl: 'https://www.figma.com/design/vIGoSouUaeWlz2U42AbQrQ/company-profile?node-id=0-1&t=utivyNtfF7rSYYDi-1'
   },
+  {
+    id: 5,
+    title: 'Membuat Aplikasi Split Bill',
+    description: 'Membuat Aplikasi Split Bill Ai adalah website yang menjelaskan tahapan pembuatan aplikasi untuk membantu pengguna membagi tagihan secara otomatis, cepat, dan tanpa kesalahan.',
+    imageUrl: '/images/cekelanAI.jpg',
+    linkUrl: 'https://github.com/shn3vnn/project-ai.git'
+  },
+  {
+    id: 6,
+    title: 'Membuat Aplikasi Website Jajanan Delta',
+    description: 'Project Jajanan Delta merupakan website yang dirancang untuk mengenalkan dan mempromosikan jajanan lokal khas Sidoarjo melalui tampilan yang menarik dan ramah pengguna.',
+    imageUrl: '/images/JajananDelta.jpg',
+    linkUrl: 'https://github.com/raffiakbar05/jajanan-delta.git'
+  },
+  {
+    id: 7,
+    title: 'Membuat Aplikasi Fitroutine Ai',
+    description: 'FitRoutine AI adalah proyek aplikasi berbasis AI yang membantu pengguna menyusun dan menyesuaikan rutinitas olahraga sesuai kebutuhan dan kebiasaan mereka.',
+    imageUrl: '/images/JajananDelta.jpg',
+    linkUrl: 'https://github.com/raffiakbar05/fitroutine-.git'
+  },
 ];
 
 export default projectsData;
