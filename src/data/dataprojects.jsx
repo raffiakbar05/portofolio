@@ -47,7 +47,7 @@ const projectsData = [
     id: 7,
     title: 'Membuat Aplikasi Fitroutine Ai',
     description: 'FitRoutine AI adalah proyek aplikasi berbasis AI yang membantu pengguna menyusun dan menyesuaikan rutinitas olahraga sesuai kebutuhan dan kebiasaan mereka.',
-    imageUrl: '/images/JajananDelta.jpg',
+    imageUrl: '/images/FitroutineAI.jpg',
     linkUrl: 'https://github.com/raffiakbar05/fitroutine-.git'
   },
 ];
