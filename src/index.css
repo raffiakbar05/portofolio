@@ -393,80 +393,95 @@ h3 {
   background-color: var(--white);
 }
 
-.project-item {
+.projects-scroll-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 50px;
-  margin-bottom: 100px;
+  gap: 30px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.projects-scroll-container::-webkit-scrollbar {
+  height: 6px;
+}
+
+.projects-scroll-container::-webkit-scrollbar-track {
+  background: var(--background-color);
+  border-radius: 10px;
+}
+
+.projects-scroll-container::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+
+.project-card {
+  flex: 0 0 320px;
   background-color: var(--background-color);
-  padding: 40px;
   border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-}
-
-.project-item:last-child {
-  margin-bottom: 0;
-}
-
-.project-item.reverse-layout {
-  flex-direction: row-reverse;
-}
-
-.project-image-container {
-  flex: 1;
-  max-width: 50%;
-  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.07);
   overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  transform: rotate(-3deg);
+  scroll-snap-align: start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.project-card-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
-.project-item:hover .project-image-container {
-  transform: rotate(0deg);
+.project-card:hover .project-card-image img {
+  transform: scale(1.05);
 }
 
-.project-image-container img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.project-details {
+.project-card-details {
+  padding: 25px;
   flex: 1;
-  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.project-details h3 {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
+.project-card-details h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
 }
 
-.project-details p {
+.project-card-details p {
   color: var(--text-light);
-  line-height: 1.8;
-  font-size: 1.1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  flex: 1;
 }
 
 .project-link {
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--primary-color);
   text-decoration: none;
-  position: relative;
+  margin-top: auto;
 }
 
-.project-link::after {
-  content: '→';
-  position: absolute;
-  right: -25px;
-  transition: right 0.3s ease;
-}
-
-.project-link:hover::after {
-  right: -30px;
+.project-link:hover {
+  color: var(--secondary-color);
 }
 
 /* Gaya Komponen Contact (sekarang menjadi seperti footer) */
@@ -708,21 +723,8 @@ h3 {
     max-width: 80%;
   }
   
-  .projects-section .project-item {
-    flex-direction: column;
-  }
-  
-  .projects-section .project-item.reverse-layout {
-    flex-direction: column;
-  }
-  
-  .projects-section .project-image-container,
-  .projects-section .project-details {
-    max-width: 100%;
-  }
-
-  .projects-section .project-image-container {
-    transform: rotate(0deg);
+  .project-card {
+    flex: 0 0 260px;
   }
   
   .education-item {
