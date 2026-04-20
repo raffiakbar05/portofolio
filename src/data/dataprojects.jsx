@@ -3,24 +3,24 @@
 const projectsData = [
   {
     id: 1,
-    title: 'Website Kumon Pondok Mutiara',
-    description: 'Di project Digital Talent Program dan terbagi kelompok dengan setiap kelompok terdiri dari berbagai DTP lainnya agar bisa berkolaborasi dan juga bekerja sama. Saya di project ini adalah sebagai Hipster atau dessain website UI/UX nya',
-    imageUrl: '/images/foto_website-kumon.jpg', // Path sudah diperbaiki di sini
-    linkUrl: 'https://www.figma.com/design/DBhtvCI9TrEiw5dqN51GmR/project-kumon--lms-?node-id=101-198&t=rKbBufsqlbCGyZ4Q-1'
-  }, 
+    title: 'Membuat Aplikasi Fitroutine Ai',
+    description: 'FitRoutine AI adalah proyek aplikasi berbasis AI yang membantu pengguna menyusun dan menyesuaikan rutinitas olahraga sesuai kebutuhan dan kebiasaan mereka.',
+    imageUrl: '/images/FitroutineAI.jpg',
+    linkUrl: 'https://github.com/raffiakbar05/fitroutine-.git'
+  },
   {
     id: 2,
-    title: 'Website Donasi Sosial',
-    description: 'Merancang tampilan website yang ramah pengguna untuk platform donasi online, memastikan proses donasi yang mudah dan transparan bagi para donatur. Di project ini saya sebagai frontend dan membuat tampilan websitenya, disini saya menggunakan HTML & CSS.',
-    imageUrl: '/images/landing page.jpg',
-    linkUrl: 'https://github.com/raffiakbar05/website-donasi-sosial_frontend.git'
+    title: 'Membuat Aplikasi Website Jajanan Delta',
+    description: 'Project Jajanan Delta merupakan website yang dirancang untuk mengenalkan dan mempromosikan jajanan lokal khas Sidoarjo melalui tampilan yang menarik dan ramah pengguna.',
+    imageUrl: '/images/JajananDelta.jpg',
+    linkUrl: 'https://github.com/raffiakbar05/jajanan-delta.git'
   },
   {
     id: 3,
-    title: 'Desain Mobile Figma',
-    description: 'Di kelas Digital Talent Program di Hipster saya dapat project sederhana yaitu membuat desain aplikasi mobile yang responsif menggunakan figma.',
-    imageUrl: '/images/mobile-app.jpg',
-    linkUrl: 'https://www.figma.com/design/AwFc1ZGgz81U13GxQJnuDC/Hipster?node-id=0-1&t=YEYVyEmc7VeAcUmm-1'
+    title: 'Membuat Aplikasi Split Bill',
+    description: 'Membuat Aplikasi Split Bill Ai adalah website yang menjelaskan tahapan pembuatan aplikasi untuk membantu pengguna membagi tagihan secara otomatis, cepat, dan tanpa kesalahan.',
+    imageUrl: '/images/cekelanAI.jpg',
+    linkUrl: 'https://github.com/shn3vnn/project-ai.git'
   },
   {
     id: 4,
@@ -31,24 +31,24 @@ const projectsData = [
   },
   {
     id: 5,
-    title: 'Membuat Aplikasi Split Bill',
-    description: 'Membuat Aplikasi Split Bill Ai adalah website yang menjelaskan tahapan pembuatan aplikasi untuk membantu pengguna membagi tagihan secara otomatis, cepat, dan tanpa kesalahan.',
-    imageUrl: '/images/cekelanAI.jpg',
-    linkUrl: 'https://github.com/shn3vnn/project-ai.git'
+    title: 'Desain Mobile Figma',
+    description: 'Di kelas Digital Talent Program di Hipster saya dapat project sederhana yaitu membuat desain aplikasi mobile yang responsif menggunakan figma.',
+    imageUrl: '/images/mobile-app.jpg',
+    linkUrl: 'https://www.figma.com/design/AwFc1ZGgz81U13GxQJnuDC/Hipster?node-id=0-1&t=YEYVyEmc7VeAcUmm-1'
   },
   {
     id: 6,
-    title: 'Membuat Aplikasi Website Jajanan Delta',
-    description: 'Project Jajanan Delta merupakan website yang dirancang untuk mengenalkan dan mempromosikan jajanan lokal khas Sidoarjo melalui tampilan yang menarik dan ramah pengguna.',
-    imageUrl: '/images/JajananDelta.jpg',
-    linkUrl: 'https://github.com/raffiakbar05/jajanan-delta.git'
+    title: 'Website Donasi Sosial',
+    description: 'Merancang tampilan website yang ramah pengguna untuk platform donasi online, memastikan proses donasi yang mudah dan transparan bagi para donatur. Di project ini saya sebagai frontend dan membuat tampilan websitenya, disini saya menggunakan HTML & CSS.',
+    imageUrl: '/images/landing page.jpg',
+    linkUrl: 'https://github.com/raffiakbar05/website-donasi-sosial_frontend.git'
   },
   {
     id: 7,
-    title: 'Membuat Aplikasi Fitroutine Ai',
-    description: 'FitRoutine AI adalah proyek aplikasi berbasis AI yang membantu pengguna menyusun dan menyesuaikan rutinitas olahraga sesuai kebutuhan dan kebiasaan mereka.',
-    imageUrl: '/images/FitroutineAI.jpg',
-    linkUrl: 'https://github.com/raffiakbar05/fitroutine-.git'
+    title: 'Website Kumon Pondok Mutiara',
+    description: 'Di project Digital Talent Program dan terbagi kelompok dengan setiap kelompok terdiri dari berbagai DTP lainnya agar bisa berkolaborasi dan juga bekerja sama. Saya di project ini adalah sebagai Hipster atau dessain website UI/UX nya',
+    imageUrl: '/images/foto_website-kumon.jpg',
+    linkUrl: 'https://www.figma.com/design/DBhtvCI9TrEiw5dqN51GmR/project-kumon--lms-?node-id=101-198&t=rKbBufsqlbCGyZ4Q-1'
   },
 ];
 
